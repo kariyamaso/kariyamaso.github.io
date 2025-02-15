@@ -11,61 +11,81 @@ section:
 
 # filter buttons
 buttons:
-- name: All
-  filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+  - name: All
+    filter: "all"
+  - name: Language
+    filter: "language"
+  - name: Domain
+    filter: "domain"
+  - name: Business
+    filter: "business"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+  - name: Python
+    logo: /images/sections/skills/python.png
+    summary: "Using as the main language for data science and machine learning in my research and development. Capable of writing code in a scalable, clean and readable way, refactoring code."
+    categories: ["language"]
+    url: "https://www.python.org/"
+    level: "Advanced"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+  - name: Brainwave Analysis
+    logo: /images/sections/skills/Neuraldecode.png
+    summary: "Using in my research project on Neural Decoding, Brain-Computer Interface. EEG, MEG, Ecog is the main data source."
+    categories: ["domain"]
+    level: "Intermediate"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+  - name: Machine Learning
+    logo: /images/sections/skills/machinelearn.png
+    summary: "Capable of setting up data pipelines, feature engineering, model training, and evaluation and hyperparameter tuning. Experienced with various machine learning algorithms. Bronze medals in machine learning competition."
+    categories: ["domain"]
+    level: "Advanced"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+  - name: Graph Neural Network
+    logo: /images/sections/skills/GNN.png
+    summary: "Using in my research project on brain-inspired AI."
+    categories: ["domain"]
+    level: "Intermediate"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+  - name: Reinforcement Learning
+    logo: /images/sections/skills/RL.png
+    summary: "Experienced with the implementation in robotics simulations."
+    categories: ["domain"]
+    level: "Intermediate"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  - name: Large Language Model
+    logo: /images/sections/skills/LLM.png
+    summary: "Experienced with the implementation in some projects."
+    categories: ["domain"]
+    level: "Intermediate"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  - name: Robotics
+    logo: /images/sections/skills/robot.png
+    summary: "Experienced with the implementation in simulations and real robots."
+    categories: ["domain"]
+    level: "Basic"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  - name: Generative AI
+    logo: /images/sections/skills/Encoder.png
+    summary: "Using in my research project on Neural Decoding."
+    categories: ["domain"]
+    level: "Advanced"
+
+  - name: Entrepreneurship
+    logo: /images/sections/skills/entre.png
+    summary: "Have experience in selecting as a finalist in deep tech business plan competition."
+    categories: ["business"]
+    level: "Intermediate"
+
+  - name: Market Analysis
+    logo: /images/sections/skills/market.png
+    summary: "Financial statement analysis, market research, and business model analysis."
+    categories: ["business"]
+    level: "Intermediate"
+
+  - name: Economic Security
+    logo: /images/sections/skills/security.png
+    summary: "Have Knowledge in world economics strategy, international relations, and international law, especially in the field of semiconductor and energy."
+    categories: ["business"]
+    level: "Intermediate"
