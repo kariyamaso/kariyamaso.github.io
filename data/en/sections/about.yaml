@@ -71,19 +71,20 @@ resourceLinks:
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-  - type: certification
-    name: UTNT
-    badge: "assets/images/author/UTNT_logo.jpg"
+  - type: soft-skill-indicator
+    name: Machine Learning
+    percentage: 100
+    color: "#ff1493"
 
-  - type: certification
-    name: Istio and IBM Cloud Kubernetes Service
-    url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-    badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  - type: soft-skill-indicator
+    name: Neuroscience
+    percentage: 100
+    color: green
 
-  - type: certification
-    name: Artificial Intelligence and Machine Learning
-    url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-    badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  - type: soft-skill-indicator
+    name: business
+    percentage: 100
+    color: blue
 
   - type: soft-skill-indicator
     name: Signate blonze medal × 2
@@ -95,8 +96,8 @@ badges:
     percentage: 100
     color: yellow
     url: https://entredu.t.u-tokyo.ac.jp/community/
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+
+  - type: soft-skill-indicator
+    name: Economic Security
+    percentage: 100
+    color: "#4b0082"
