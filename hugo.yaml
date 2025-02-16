@@ -1,6 +1,6 @@
 baseURL: https://kariyamaso.github.io
 
-languageCode: ja
+languageCode: en
 title: "Profile"
 
 # Use Hugo modules to add theme
