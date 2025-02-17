@@ -25,8 +25,8 @@ languages:
     languageName: English
     title: "Profile"
     weight: 1
-  bn:
-    languageCode: ja
+  jp:
+    languageCode: jp
     languageName: 日本語
     title: "プロフィール"
     weight: 2
