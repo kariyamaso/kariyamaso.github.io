@@ -1,0 +1,91 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+  - name: All
+    filter: "all"
+  - name: Language
+    filter: "language"
+  - name: Domain
+    filter: "domain"
+  - name: Business
+    filter: "business"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+  - name: Python
+    logo: /images/sections/skills/python.png
+    summary: "研究開発において、データサイエンスや機械学習の主要言語として使用。大抵の任意処理に関するコーディング能力、読みやすいコードの記述やリファクタリングまで可能。"
+    categories: ["language"]
+    url: "https://www.python.org/"
+    level: "Advanced"
+
+  - name: 脳波解析
+    logo: /images/sections/skills/Neuraldecode.png
+    summary: "ニューラルデコーディングや脳―コンピュータインターフェースの研究プロジェクトで利用。EEG、MEG、ECoG を主要なデータソースとして解析。"
+    categories: ["domain"]
+    level: "Intermediate"
+
+  - name: 機械学習
+    logo: /images/sections/skills/machinelearn.png
+    summary: "データパイプラインの構築、特徴量エンジニアリング、モデルの学習・評価、ハイパーパラメータの調整に熟練。各種機械学習アルゴリズムの経験があり、機械学習コンペティションで銅メダルを獲得。"
+    categories: ["domain"]
+    level: "Advanced"
+
+  - name: グラフニューラルネットワーク
+    logo: /images/sections/skills/GNN.png
+    summary: "Brain-inspired AIの研究にて使用。"
+    categories: ["domain"]
+    level: "Intermediate"
+
+  - name: 強化学習
+    logo: /images/sections/skills/RL.png
+    summary: "ロボティクスシミュレーションでの実装、プロジェクト経験あり"
+    categories: ["domain"]
+    level: "Intermediate"
+
+  - name: 大規模言語モデル
+    logo: /images/sections/skills/LLM.png
+    summary: "複数プロジェクトでの使用経験"
+    categories: ["domain"]
+    level: "Intermediate"
+
+  - name: ロボティクス
+    logo: /images/sections/skills/robot.png
+    summary: "実機、シミュレーション両方でのプロジェクト経験あり"
+    categories: ["domain"]
+    level: "Basic"
+
+  - name: 生成モデル
+    logo: /images/sections/skills/Encoder.png
+    summary: "ニューラルデコーディングの研究で使用。"
+    categories: ["domain"]
+    level: "Advanced"
+
+  - name: アントレプレナーシップ
+    logo: /images/sections/skills/entre.png
+    summary: "ディープテック事業案の企画立案、事業計画書の作成、プレゼンテーションの経験あり。東京大学内の授業にてファイナリストとして選出。"
+    categories: ["business"]
+    level: "Intermediate"
+
+  - name: 市場分析
+    logo: /images/sections/skills/market.png
+    summary: "決算書の読解、競合分析"
+    categories: ["business"]
+    level: "Intermediate"
+
+  - name: 経済安全保障
+    logo: /images/sections/skills/security.png
+    summary: "半導体やエネルギー分野を中心に、世界経済戦略、国際関係、国際法に関する知識を有する。"
+    categories: ["business"]
+    level: "Intermediate"

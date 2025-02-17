@@ -1,0 +1,103 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Engineer
+# your company information
+company:
+  name: Example Co.
+  url: "https://www.example.com"
+
+affiliations:
+  - role: "CTO"
+    organization: "FastNeura Inc."
+    url: "https://fastneura.com"
+  - role: "Founder"
+    organization: "UTokyo NeuroTech Association"
+    url: "https://x.com/UTokyoneuro"
+  - role: "Student"
+    organization: "The University of Tokyo, Faculty of Engineering"
+    url: "https://www.si.t.u-tokyo.ac.jp/course/psi/"
+  - role: "Researcher"
+    organization: "Yanagisawa lab, The University of Osaka"
+    url: "https://www.med.osaka-u.ac.jp/pub/nsurg/yanagisawa/"
+  - role: "Researcher"
+    organization: "The Whole Brain Architecture Initiative"
+    url: "https://wba-initiative.org/en/"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: "I am a researcher in the field of NeuroTech (Neuroscience and Machine learning). I am interested in brain-inspired AI, Reinforcement learning, and Brain-Computer Interface. I am currently working on a research project on brain-inspired AI, neural decoding."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "sokariyama@gmail.com"
+
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/kariyamaso"
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/so-kariyama"
+
+  - name: X
+    icon: "fab fa-x-twitter"
+    url: https://x.com/so_kariyama
+
+  - name: Facebook
+    icon: "fab fa-facebook"
+    url: "https://www.facebook.com/profile.php?id=61570844604765"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+  - title: "My Resume"
+    url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+  - type: soft-skill-indicator
+    name: Machine Learning
+    percentage: 100
+    color: "#ff1493"
+
+  - type: soft-skill-indicator
+    name: Neuroscience
+    percentage: 100
+    color: green
+
+  - type: soft-skill-indicator
+    name: business
+    percentage: 100
+    color: blue
+
+  - type: soft-skill-indicator
+    name: Signate blonze medal × 2
+    percentage: 100
+    color: orange
+
+  - type: soft-skill-indicator
+    name: DICE member
+    percentage: 100
+    color: yellow
+    url: https://entredu.t.u-tokyo.ac.jp/community/
+
+  - type: soft-skill-indicator
+    name: Economic Security
+    percentage: 100
+    color: "#4b0082"

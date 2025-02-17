@@ -1,0 +1,49 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: 工学部システム創成学科PSIコース
+    icon: fa-graduation-cap
+    timeframe: 2025-
+    institution:
+      name: 東京大学
+      url: "https://www.si.t.u-tokyo.ac.jp/course/psi/"
+      logo: /images/sections/education/utokyo.jpg
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/education/tech_college.png
+
+  - name: 前期教養学部
+    icon: fa-graduation-cap
+    timeframe: 2023-2025
+    institution:
+      name: 東京大学
+      url: "https://www.c.u-tokyo.ac.jp/"
+      logo: /images/sections/education/utokyo.jpg
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/education/university.jpg
+    grade: #(optional)
+      scale: CGPA (reference)
+      achieved: 3.4
+      outOf: 4
+
+  - name: 高校
+    icon: fa-university
+    timeframe: 2017-2023
+    institution:
+      name: 東京都立三鷹中等教育学校
+      url: "https://www.metro.ed.jp/mitaka-s/"
+      logo: /images/sections/education/mitaka.jpeg
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/education/science_college.png
+    grade: #(optional)
+      scale: CGPA (reference)
+      achieved: 3.9
+      outOf: 4

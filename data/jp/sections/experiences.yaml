@@ -1,0 +1,105 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: FastNeura Inc.
+      url: "https://fastneura.com"
+      location: 東京、日本
+      logo: /images/sections/experiences/fastneura.jpeg
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/experiences/company1.jpg
+      # company overview
+      overview: "FastNeura は、神経科学と機械学習の視点から、SF を現実に実現することを目指すスタートアップです。次世代のヒューマン・コンピュータインターフェースのための脳―コンピュータインターフェース（BCI）技術の開発に取り組んでいます。"
+    positions:
+      - designation: 最高技術責任者
+        start: 2025年1月
+        responsibilities:
+          - BCI技術開発
+          - 受託研究
+          - 経営戦略
+
+      - designation: リサーチエンジニア
+        start: 2024年10月
+        end: 2025年1月
+
+  - company:
+      name: 全脳アーキテクチャ・イニシアティブ（WBAI）
+      url: "https://wba-initiative.org/en/"
+      location: 東京、日本
+      logo: /images/sections/experiences/wbai.png
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/experiences/company2.jpg
+      overview: "The Whole Brain Architecture Initiative (WBAI) は、脳に着想を得た汎用人工知能の実現に向け、全脳アーキテクチャのアプローチで取り組むイニシアチブです。神経科学と最新AIを融合し、技術と人間が共に発展する未来の構築を目指しています。"
+    positions:
+      - designation: 研究アシスタント
+        start: 2024年9月
+        responsibilities:
+          - Brain-inspired AIの研究協力
+          - 研究用のGraph Neural Networkの実装開発
+          - 実験データの収集・開発と仮説検証
+
+  - company:
+      name: 大阪大学栁澤研究室
+      url: "https://www.med.osaka-u.ac.jp/pub/nsurg/yanagisawa/"
+      location: リモート
+      logo: /images/sections/experiences/osaka.png
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/experiences/company3.jpg
+      overview: "大阪大学の柳沢研究室は、人間の脳の理解を深め、革新的な脳―コンピュータインターフェース技術の開発に挑む先端研究機関です。神経科学、工学、情報科学の専門家が連携して研究を進めています。"
+    positions:
+      - designation: 技術補佐員
+        start: 2024年9月
+        responsibilities:
+          - ニューラルデコーディングについての研究
+
+  - company:
+      name: UTokyo NeuroTech Association
+      url: "https://x.com/UTokyoneuro"
+      location: 東京、日本
+      logo: /images/sections/experiences/UTNT_logo.jpg
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/experiences/company4.jpg
+      overview: "UTokyo NeuroTech Association は、東京大学のニューロテック学生コミュニティです。神経科学と機械学習に関心を持つ学生が集い、学び合い、協働する場を提供しています。"
+    positions:
+      - designation: 代表兼創設者
+        start: 2025年1月
+        responsibilities:
+          - イベント・輪読会の企画・運営
+          - コミュニティ管理
+
+  - company:
+      name: EfficiNet X Co., Ltd.
+      url: "https://efficinetx.co.jp/"
+      location: 東京、日本
+      logo: /images/sections/experiences/efficinetx.png
+      overview: "EfficiNet X は、マルチエージェントAIシステムの開発とその応用に取り組むスタートアップです。. "
+
+    positions:
+      - designation: ソフトウェアエンジニア
+        start: 2024年6月
+        responsibilities:
+          - マルチエージェントシステムの開発
+          - ウェブアプリケーションの開発
+          - データ解析
+
+  - company:
+      name: BAKUTAN Inc.
+      url: "https://bakutan.com/"
+      location: 東京、日本
+      logo: /images/sections/experiences/bakutan.png
+      overview: "BAKUTAN Inc. は、東京大学発のスタートアップで、技術とデザインの力で人々のつながりを創出することを目指しています。最先端のAI研究と市場設計を活用し、組織が人間中心の課題に取り組むためのアルゴリズムやソフトウェアの開発を行っています。"
+    positions:
+      - designation: 技術アドバイザー
+        start: 2023年11月
+        end: 2025年1月
+        responsibilities:
+          - AIアルゴリズム開発のアドバイス

@@ -1,0 +1,29 @@
+# some information about you
+name: "So Kariyama"
+nickname: "So Kariyama"
+
+image: "images/author/logo.png"
+
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "sokariyama@gmail.com"
+  github: kariyamaso
+  LinkedIn:
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/so-kariyama
+    text: So Kariyama
+  x-twitter:
+    icon: fab fa-x-twitter
+    url: https://x.com/so_kariyama
+    text: So Kariyama
+  facebook:
+    icon: fab fa-facebook
+    url: https://www.facebook.com/profile.php?id=61570844604765
+    text: So Kariyama
+
+# some summary about what you do
+summary:
+  - I am a undergraduate student at the University of Tokyo
+  - I am interested in neuroscience and machine learning
+  - Brain-inspired AI, Reinforcement learning, GNN, LLM, Robotics
+  - I am currently working on a research project on brain-inspired AI, neural decoding
