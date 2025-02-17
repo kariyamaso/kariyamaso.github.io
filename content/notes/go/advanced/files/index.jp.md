@@ -1,15 +1,16 @@
 ---
-title: ফাইল ম্যানিপুলেশন
+title: File Manipulation
 weight: 40
 menu:
   notes:
-    name: ফাইল ম্যানিপুলেশন
+    name: File Manipulation
     identifier: notes-go-advanced-files
     parent: notes-go-advanced
     weight: 10
 ---
 
 <!-- Condition -->
+
 {{< note title="Condition">}}
 
 ```go

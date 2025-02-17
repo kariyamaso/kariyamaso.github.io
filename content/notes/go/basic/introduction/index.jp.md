@@ -1,17 +1,19 @@
 ---
-title: Go পরিচিতি
+title: Go Introduction
 weight: 10
 menu:
   notes:
-    name: পরিচিতি
+    name: Introduction
     identifier: notes-go-basics-intro
     parent: notes-go-basics
     weight: 10
 ---
+
 <!-- A Sample Program -->
+
 {{< note title="Hello World">}}
 A sample go program is show here.
-  
+
 ```go
 package main
 
@@ -32,28 +34,33 @@ Run the program as below:
 ```bash
 $ go run hello.go
 ```
+
 {{< /note >}}
 
 <!-- Declaring Variables -->
 
 {{< note title="Variables" >}}
 **Normal Declaration:**
+
 ```go
 var msg string
 msg = "Hello"
 ```
 
 **Shortcut:**
+
 ```go
 msg := "Hello"
 ```
-{{< /note >}}
 
+{{< /note >}}
 
 <!-- Declaring Constants -->
 
 {{< note title="Constants" >}}
+
 ```go
 const Phi = 1.618
 ```
+
 {{< /note >}}
