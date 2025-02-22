@@ -2,7 +2,7 @@
 section:
   name: Accomplishments
   id: accomplishments
-  enable: false
+  enable: true
   weight: 9
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -10,34 +10,26 @@ section:
 
 # Your accomplishments
 accomplishments:
-  - name: Linux Foundation System Administrator
-    timeline: "March 2018 - March 2019"
+  - name: Large Language Model
+    timeline: "Sep 2024 - Jan 2025"
     organization:
-      name: Linux Foundation
-      url: https://www.linuxfoundation.org
-    courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-    certificateURL: "https://example.com"
+      name: Matsuo, Iwasawa Lab, The University of Tokyo
+      url: https://weblab.t.u-tokyo.ac.jp/
+    courseOverview: "This course offers a comprehensive introduction to large language models (LLMs) in generative AI. Topics include: (i) Fundamental principles of LLMs—from pre-training to reinforcement learning from human feedback (RLHF); (ii) Core techniques supporting LLM training and inference, such as scaling laws, supervised fine-tuning, and safety measures; (iii) Practical applications using publicly available LLMs and APIs across various domains."
+    certificatePDF: "files/certificate/LLM.pdf"
 
-  - name: Machine Learning
-    timeline: "Jun 2020 - Jan 2021"
+  - name: Deep Reinforcement Learning
+    timeline: "Jul 2024 - Oct 2024"
     organization:
-      name: Coursera
-      url: https://www.coursera.org
-    courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-    certificateURL: "https://example.com"
+      name: Matsuo, Iwasawa Lab, The University of Tokyo
+      url: https://weblab.t.u-tokyo.ac.jp/
+    courseOverview: "This course provides a comprehensive introduction to deep reinforcement learning, equipping you with the knowledge and practical skills to launch research and real-world applications. Topics include: (i) Fundamental reinforcement learning algorithms, covering Markov decision processes, dynamic programming, and planning techniques; (ii) Core deep RL methods such as DQN, continuous control, imitation learning, offline reinforcement learning, and Control as Inference; (iii) Advanced topics and applications, including model-based reinforcement learning, world models, and diverse applications spanning robotics, game AI, multi-agent systems, bioinformatics, molecular design, ad optimization, physical simulation, traffic engineering, and finance."
+    certificatePDF: "files/certificate/RL.pdf"
 
-  - name: Grokking the System Design Interview
-    timeline: "Jan 2018 - Sept 2018"
+  - name: Financial Market Forecasting and Machine Learning
+    timeline: "Jul 2024 - Oct 2024"
     organization:
-      name: educative
-      url: https://www.educative.io
-    courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-    certificateURL: "https://example.com"
-
-  - name: Mastering Multithreading Programming with Go (Golang)
-    timeline: "Nov 2017 - Mar 2018"
-    organization:
-      name: Udemy
-      url: https://www.udemy.com
-    courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, multithreading topics.
-    certificateURL: "https://example.com"
+      name: Matsuo, Iwasawa Lab, The University of Tokyo
+      url: https://weblab.t.u-tokyo.ac.jp/
+    courseOverview: "This course offers a comprehensive introduction to developing financial trading algorithms using machine learning. Topics include: (i) Fundamental financial market concepts and technical analysis; (ii) Essential techniques for algorithm development such as dataset creation, labeling, and backtesting; (iii) Practical implementation of quantitative trading strategies through hands-on exercises and a competitive final project."
+    certificatePDF: "files/certificate/finance.pdf"
