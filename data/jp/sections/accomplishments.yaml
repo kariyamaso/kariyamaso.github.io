@@ -1,43 +1,35 @@
-# section information
+# セクション情報
 section:
-  name: Accomplishments
+  name: 実績
   id: accomplishments
-  enable: false
+  enable: true
   weight: 9
   showOnNavbar: true
-  # Can optionally hide the title in sections
+  # タイトルを隠す場合は、以下を有効にしてください
   # hideTitle: true
 
-# Your accomplishments
+# 実績一覧
 accomplishments:
-  - name: Linux Foundation System Administrator
-    timeline: "March 2018 - March 2019"
+  - name: 大規模言語モデル
+    timeline: "2024年9月 - 2025年1月"
     organization:
-      name: Linux Foundation
-      url: https://www.linuxfoundation.org
-    courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-    certificateURL: "https://example.com"
+      name: 東京大学 松尾・岩澤研究室
+      url: https://weblab.t.u-tokyo.ac.jp/
+    courseOverview: "本講座では、生成AIにおける大規模言語モデル（LLM）の包括的な入門を提供します。主なトピックは、(i) 事前学習から人間のフィードバックを用いた強化学習（RLHF）までのLLMの基本原理、(ii) スケーリング則、教師あり微調整、安全性対策など、LLMの学習および推論を支えるコア技術、(iii) 公開されているLLMやAPIを用いた実践的な応用事例、を含みます。"
+    certificatePDF: "files/certificate/LLM.pdf"
 
-  - name: Machine Learning
-    timeline: "Jun 2020 - Jan 2021"
+  - name: 深層強化学習
+    timeline: "2024年7月 - 2024年10月"
     organization:
-      name: Coursera
-      url: https://www.coursera.org
-    courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-    certificateURL: "https://example.com"
+      name: 東京大学 松尾・岩澤研究室
+      url: https://weblab.t.u-tokyo.ac.jp/
+    courseOverview: "本講座では、深層強化学習の包括的な入門を提供し、研究や実世界での応用に必要な知識と実装スキルを習得できます。主なトピックは、(i) マルコフ決定過程、動的計画法、プランニング手法を含む基本的な強化学習アルゴリズム、(ii) DQN、連続制御、模倣学習、オフライン強化学習、Control as Inferenceなどのコアな深層強化学習手法、(iii) ロボット制御、ゲームAI、マルチエージェントシステム、バイオインフォマティクス、分子設計、広告最適化、物理シミュレーション、交通工学、金融など、多岐にわたる分野における応用や、モデルベース強化学習、世界モデルといった発展的なトピックを含みます。"
+    certificatePDF: "files/certificate/RL.pdf"
 
-  - name: Grokking the System Design Interview
-    timeline: "Jan 2018 - Sept 2018"
+  - name: 金融市場予測と機械学習
+    timeline: "2024年7月 - 2024年10月"
     organization:
-      name: educative
-      url: https://www.educative.io
-    courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-    certificateURL: "https://example.com"
-
-  - name: Mastering Multithreading Programming with Go (Golang)
-    timeline: "Nov 2017 - Mar 2018"
-    organization:
-      name: Udemy
-      url: https://www.udemy.com
-    courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, multithreading topics.
-    certificateURL: "https://example.com"
+      name: 東京大学 松尾・岩澤研究室
+      url: https://weblab.t.u-tokyo.ac.jp/
+    courseOverview: "本講座では、機械学習を活用した金融取引アルゴリズムの開発について包括的に学びます。主なトピックは、(i) 金融市場の基礎知識およびテクニカル分析、(ii) データセット作成、ラベリング、バックテストなどのアルゴリズム開発に必要な技術、(iii) 実践的な演習と競争型の最終プロジェクトを通じた定量的投資戦略の実装、を含みます。"
+    certificatePDF: "files/certificate/finance.pdf"
