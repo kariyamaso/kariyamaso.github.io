@@ -2,7 +2,7 @@
 section:
   name: Achievements
   id: achievements
-  enable: false
+  enable: true
   weight: 10
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -10,15 +10,14 @@ section:
 
 # Your achievements achievements
 achievements:
-  - title: Best Presenter
-    image: /images/sections/achievements/presenter.jpg
-    summary: Best presenter in the 2020 XYZ conference.
-  - title: Champion
-    image: /images/sections/achievements/sport.jpg
-    summary: Champion in cycling inter-city cycling championship 2020.
-  - title: Graduation
-    image: /images/sections/achievements/graduation-cap.jpg
-    summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-  - title: Award Winner
-    image: /images/sections/achievements/woman-winner.jpg
-    summary: Wined best paper award at IEE Conference 2020.
+  - title: MUFG Data Science Champion Ship 2024 bronze prize (Solo)
+    image: /images/sections/achievements/MUFG_Data_Science.jpg
+    summary: Achieved Bronze Prize in the MUFG Data Science Championship 2024 (Solo) by building a model to predict banking app review scores (0–4) using both NLP on review texts and quantitative data like “likes.”
+
+  - title: SMBC Group GREEN×DATA Challenge bronze prize (Solo)
+    image: /images/sections/achievements/SMBC_Group.jpg
+    summary: Achieved Bronze Prize in the SMBC Group GREEN×DATA Challenge 2024 (Solo) by building a model to predict tree health using both quantitative (e.g., tree size) and qualitative (e.g., potential issues, surrounding environment) data, supporting urban greening and forest conservation efforts.
+
+  - title: Final presenter of Tokyo University DeepTech Entrepreneurship Lecture
+    image: /images/sections/achievements/utokyo_deeptech.jpg
+    summary: Selected as a Final Presenter in the Tokyo University DeepTech Entrepreneurship Lecture, gaining a valuable opportunity to present on the business expansion of the NeuroTech domain.
