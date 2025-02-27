@@ -14,9 +14,9 @@ achievements:
     image: /images/sections/achievements/MUFG_Data_Science.jpg
     summary: "2024年のMUFG Data Science Champion Shipにおいて、ソロ参加として、銀行アプリのレビュー評価（0～4）を、レビュー本文の自然言語処理と「いいね」などの定量データを活用して予測するモデルを構築し、ブロンズ賞を獲得しました。"
 
-  - title: SMBC Group GREEN×DATA Challenge bronze prize (Solo)
+  - title: SMBC Group GREENxDATA Challenge bronze prize (Solo)
     image: /images/sections/achievements/SMBC_Group.png
-    summary: "2023年のSMBC Group GREEN×DATA Challengeにおいて、ソロで定量データ（例：樹木の大きさ）および定性データ（例：潜在的な問題点、周辺環境）を活用して樹木の健康状態を予測するモデルを構築し、都市の緑化と森林保護の取り組みを支援することで、ブロンズ賞を獲得しました。"
+    summary: "2023年のSMBC Group GREENxDATA Challengeにおいて、ソロで定量データ（例:樹木の大きさ）および定性データ（例：潜在的な問題点、周辺環境）を活用して樹木の健康状態を予測するモデルを構築し、都市の緑化と森林保護の取り組みを支援することで、ブロンズ賞を獲得しました。"
 
   - title: 東京大学DeepTech起業家講義 ファイナルプレゼンテーター選抜
     image: /images/sections/achievements/utokyo_deeptech.png
