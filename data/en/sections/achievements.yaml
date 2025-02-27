@@ -15,9 +15,9 @@ achievements:
     summary: Achieved Bronze Prize in the MUFG Data Science Championship 2024 (Solo) by building a model to predict banking app review scores (0–4) using both NLP on review texts and quantitative data like “likes.”
 
   - title: SMBC Group GREEN×DATA Challenge bronze prize (Solo)
-    image: /images/sections/achievements/SMBC_Group.jpg
+    image: /images/sections/achievements/SMBC_Group.png
     summary: Achieved Bronze Prize in the SMBC Group GREEN×DATA Challenge 2024 (Solo) by building a model to predict tree health using both quantitative (e.g., tree size) and qualitative (e.g., potential issues, surrounding environment) data, supporting urban greening and forest conservation efforts.
 
   - title: Final presenter of Tokyo University DeepTech Entrepreneurship Lecture
-    image: /images/sections/achievements/utokyo_deeptech.jpg
+    image: /images/sections/achievements/utokyo_deeptech.png
     summary: Selected as a Final Presenter in the Tokyo University DeepTech Entrepreneurship Lecture, gaining a valuable opportunity to present on the business expansion of the NeuroTech domain.
