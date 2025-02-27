@@ -32,5 +32,5 @@ projects:
     logo: /images/author/logo.png
     image: /images/sections/projects/financial_analysis_basic.png
     role: "Financial Analysis"
-    summary: "Visualization of any company's three financial statements available on yfinance, along with the display of financial indicators and clustering analysis."
+    summary: Visualization of any company's three financial statements available on yfinance, along with the display of financial indicators and clustering analysis.
     tags: ["hobby"]
