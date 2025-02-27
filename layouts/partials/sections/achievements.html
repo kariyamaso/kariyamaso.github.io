@@ -1,0 +1,57 @@
+{{ $sectionID := replace (lower .section.name) " " "-" }} {{ if .section.id }}
+{{ $sectionID = .section.id }} {{ end }}
+
+<div class="container-fluid anchor pb-5 achievements-section">
+  {{ if not (.section.hideTitle) }}
+  <h1 class="text-center">
+    <span id="{{ $sectionID }}"></span>{{ .section.name }}
+  </h1>
+  {{ else }}
+  <h1 class="text-center" style="display: none">
+    <span id="{{ $sectionID }}"></span>{{ .section.name }}
+  </h1>
+  {{ end }}
+
+  <div class="container">
+    <table class="achievements-info-table">
+      <tbody>
+        {{ range .achievements }}
+        <tr>
+          <td class="details">
+            <div class="achievement-info card mb-4">
+              <div class="row g-0 align-items-center">
+                <div
+                  class="col-auto d-flex justify-content-center align-items-center"
+                  style="width: 120px"
+                >
+                  {{ $img := resources.Get .image }} {{ if $img }}
+                  <img
+                    src="{{ $img.RelPermalink }}"
+                    alt="{{ .title }}"
+                    class="img-fluid rounded"
+                    style="width: 100px; height: 100px; object-fit: cover"
+                  />
+                  {{ else }}
+                  <img
+                    src="{{ .image | relURL }}"
+                    alt="{{ .title }}"
+                    class="img-fluid rounded"
+                    style="width: 100px; height: 100px; object-fit: cover"
+                  />
+                  {{ end }}
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5 class="card-title">{{ .title }}</h5>
+                    <p class="card-text">{{ .summary }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</div>
