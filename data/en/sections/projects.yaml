@@ -27,6 +27,7 @@ projects:
     role: "This website"
     summary: "my personal website"
     tags: ["hobby"]
+    url: "https://github.com/kariyamaso/kariyamaso.github.io"
 
   - name: Financial_analysis-basic
     logo: /images/author/logo.png
@@ -34,3 +35,4 @@ projects:
     role: "Financial Analysis"
     summary: "Visualization of any company's three financial statements available on yfinance, along with the display of financial indicators and clustering analysis."
     tags: ["hobby"]
+    url: "https://github.com/kariyamaso/finance-analysis-basic"
