@@ -11,6 +11,17 @@ section:
 # Your experiences
 experiences:
   - company:
+      name: Neuroad Inc.
+      location: 東京、日本
+      logo: /images/sections/experiences/neuroad.jpeg
+      overview: "Neuroad は、侵襲的な脳機械インターフェース技術で神経精神治療を革新し、生成AIで科学を前進させるスタートアップです。パーソナライズされた治療法と加速された発見のための革新的なソリューションを構築しています。"
+    positions:
+      - designation: リサーチエンジニア
+        start: 2025年3月
+        responsibilities:
+          - 最新モデルの実装
+
+  - company:
       name: FastNeura Inc.
       url: "https://fastneura.com"
       location: 東京、日本
