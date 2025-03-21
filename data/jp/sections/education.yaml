@@ -31,7 +31,7 @@ degrees:
       # darkLogo: /images/sections/education/university.jpg
     grade: #(optional)
       scale: CGPA (reference)
-      achieved: 3.4
+      achieved: 3.5
       outOf: 4
 
   - name: 高校
